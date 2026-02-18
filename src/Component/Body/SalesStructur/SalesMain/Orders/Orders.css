@@ -1,0 +1,68 @@
+.order-page {
+  max-width: 900px;
+  margin: 30px auto;
+}
+
+.order-card {
+  display: flex;
+  gap: 20px;
+  border: 1px solid #eee;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  align-items: center;
+}
+
+.order-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.order-info {
+  flex: 1;
+}
+
+.status {
+  padding: 4px 10px;
+  border-radius: 6px;
+  margin-left: 8px;
+  color: white;
+  text-transform: capitalize;
+}
+
+.status.pending {
+  background: orange;
+}
+
+.status.completed {
+  background: green;
+}
+
+.status.cancelled {
+  background: red;
+}
+
+.order-buttons {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.approve {
+  background: green;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.cancel {
+  background: red;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}

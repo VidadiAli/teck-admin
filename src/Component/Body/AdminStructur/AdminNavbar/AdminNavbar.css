@@ -1,0 +1,50 @@
+.admin-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.navbar-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navbar-loading,
+.navbar-noadmin {
+  color: var(--color-text-secondary);
+}
+
+.navbar-name {
+  font-weight: bold;
+  color: var(--color-text-primary);
+}
+
+.navbar-email {
+  color: var(--color-text-secondary);
+  font-size: 0.875rem;
+}
+
+.navbar-signout {
+  padding: 0.5rem 0.75rem;
+  background-color: var(--color-error);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.navbar-signout:hover {
+  background-color: #b91c1c; 
+}

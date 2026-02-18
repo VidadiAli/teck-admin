@@ -1,0 +1,57 @@
+.sales-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  padding: 12px 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid #e5e7eb;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.logo span {
+  font-size: 28px;
+}
+
+.seller-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.seller-name {
+  font-weight: 600;
+  color: #111827;
+}
+
+.seller-email {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.signout-btn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  background-color: #ef4444;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.signout-btn:hover {
+  opacity: 0.85;
+}
+
+@media (max-width: 600px) {
+  .sales-navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .seller-info {
+    gap: 8px;
+  }
+}
